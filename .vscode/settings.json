@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Windows 11\\Downloads\\json-20231013.jar"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
