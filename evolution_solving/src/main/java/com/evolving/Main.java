@@ -1,4 +1,4 @@
-package evolution_solving.src.main.java.com.evolving;
+package com.evolving;
 
 import org.json.JSONObject;
 

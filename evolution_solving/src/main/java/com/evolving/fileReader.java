@@ -1,4 +1,4 @@
-package evolution_solving.src.main.java.com.evolving;
+package com.evolving;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
