@@ -2,19 +2,17 @@ package com.evolving;
 
 import java.util.Arrays;
 
-import org.json.JSONObject;
-
 // Aux file, to review functions.
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        fileReader x = new fileReader();
-        JSONObject Obj = new JSONObject();
-        Obj = x.getJSON();
-        System.out.println(Obj.getString("content"));
+        weddingLayout DF = new weddingLayout();
+        DF.set_info();
+        DF.print_info();
+        DF.print_table();
 
         // Prueba del objeto "Asignación"
-        Asignacion cromosoma1 = new Asignacion(3, 3, 9);
+        Asignacion cromosoma1 = new Asignacion(DF.tables, DF.chairs, DF.guests);
         int [][][] mat1 = cromosoma1.getMatrix();
         int [] padres1 = cromosoma1.getPadres();
 
